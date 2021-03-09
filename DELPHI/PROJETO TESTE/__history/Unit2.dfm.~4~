@@ -1,0 +1,66 @@
+object Form2: TForm2
+  Left = 0
+  Top = 0
+  BorderStyle = bsDialog
+  Caption = 'Tela inicial'
+  ClientHeight = 312
+  ClientWidth = 546
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poMainFormCenter
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 33
+    Top = 27
+    Width = 89
+    Height = 17
+    Caption = 'Digite um n'#250'mero'
+  end
+  object Label2: TLabel
+    Left = 27
+    Top = 64
+    Width = 95
+    Height = 13
+    Caption = 'Digite outro n'#250'mero'
+  end
+  object Button1: TButton
+    Left = 407
+    Top = 245
+    Width = 121
+    Height = 49
+    Cursor = crHandPoint
+    Caption = 'Clique aqui! Ol'#225' mundo.'
+    TabOrder = 0
+    OnClick = Button1Click
+  end
+  object Edit1: TEdit
+    Left = 128
+    Top = 24
+    Width = 121
+    Height = 21
+    TabOrder = 1
+    Text = 'Edit1'
+  end
+  object Edit2: TEdit
+    Left = 128
+    Top = 61
+    Width = 121
+    Height = 21
+    TabOrder = 2
+    Text = 'Edit2'
+  end
+  object Button2: TButton
+    Left = 128
+    Top = 96
+    Width = 97
+    Height = 41
+    Caption = 'SOMA'
+    TabOrder = 3
+  end
+end
